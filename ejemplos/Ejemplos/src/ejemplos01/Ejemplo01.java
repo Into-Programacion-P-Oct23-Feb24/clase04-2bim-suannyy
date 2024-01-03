@@ -39,7 +39,9 @@ public class Ejemplo01 {
             cadenaFinal = String.format("%s%d * %d = %d\n",
                     cadenaFinal, tabla, i, 
                     resultado);
-
+    //La funcion fue llamada y no se usos directamente y en este caso se debe 
+    //quitar el void que estaba antes para que la funcion pueda retornar y poner 
+    //el String para que retorne el dato en cadena 
     }
     return cadenaFinal;
     }
